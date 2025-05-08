@@ -1,12 +1,85 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio de Vanessa</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vanessa Santos</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <h2>Vanessa de Freitas Ferreira</h2>
-    
+
+  <header>
+    <div class="container">
+      <h1>Vanessa </h1>
+      <nav>
+        <ul>
+          <li><a href="#projetos" data-i18n="nav_home">Projetos</a></li>
+          <li><a href="#tecnologias" data-i18n="nav_tecnologia">Tecnologias</a></li>
+          <li><a href="#contato" data-i18n="nav_contato">Contato</a></li>
+        </ul>
+        <select id="lang-switcher">
+            <option value="pt">🇧🇷 PT</option>
+            <option value="en">🇺🇸 EN</option>
+          </select>
+      </nav>
+    </div>
+  </header>
+
+  <section id="hero">
+    <div class="container hero-content">
+      <div class="text">
+        <h2>Olá, eu sou a Vanessa!</h2>
+        <p>Desenvolvedora Front-End apaixonada por tecnologia, design e experiências digitais incríveis.</p>
+      </div>
+      <img src="sua-foto.jpg" alt="Foto da Vanessa">
+    </div>
+  </section>
+
+  <section id="tecnologias" class="container">
+    <h2>Tecnologias</h2>
+    <div class="icons">
+      <img src="html-icon.png" alt="HTML" />
+      <img src="css-icon.png" alt="CSS" />
+      <img src="js-icon.png" alt="JavaScript" />
+      <img src="react-icon.png" alt="React" />
+    </div>
+  </section>
+
+  <section id="projetos" class="container">
+    <h2>Projetos</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Projeto 01</h3>
+        <p>Landing page moderna com foco em responsividade.</p>
+      </div>
+      <div class="card">
+        <h3>Projeto 02</h3>
+        <p>App de tarefas com funcionalidades em JavaScript.</p>
+      </div>
+      <div class="card">
+        <h3>Projeto 03</h3>
+        <p>Portfólio pessoal em HTML e CSS puro.</p>
+      </div>
+      <div class="card">
+        <h3>Projeto 04</h3>
+        <p>Projeto com React e integração com API.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contato" class="container">
+    <h2>Contato</h2>
+    <form>
+      <input type="text" placeholder="Seu nome" />
+      <input type="email" placeholder="Seu email" />
+      <textarea placeholder="Sua mensagem"></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Vanessa </p>
+  </footer>
+
 </body>
 </html>
