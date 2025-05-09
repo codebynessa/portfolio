@@ -79,7 +79,16 @@
     max-width: 40%;
     font-size: 0.8rem;
   }
-  
+  .text h2{
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .text p{
+    font-size: 1rem;
+    justify-content: center;
+    text-align: justify;
+    margin-top: 1rem;
+  }
   #tecnologias .icons {
     display: flex;
     gap: 1rem;
